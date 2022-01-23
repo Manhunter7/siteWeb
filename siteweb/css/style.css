@@ -1,0 +1,47 @@
+/* -- FOR UPPER BUTTONS -- */
+#upper-btns{
+    display: flex;
+    margin-top: 20px;
+}
+
+.space{
+    width: 40%;
+    justify-self: center;
+}
+
+.features-control{
+    width: 200px;
+    height: 40px;
+    background-color: coral;
+}
+
+#imageMain{
+    height : 70px;
+    width : 70px;
+}
+
+#page{
+    width: 100%;
+    height: 100%;
+}
+
+/* Dark Mode */
+.dMode_Page{
+    background-color: #262626;
+}
+.dMode_writings{
+    color : lightgray;
+}
+
+/* Clear Mode */
+.cMode_Page{
+    background-color: #e3e3e3;
+}
+.cMode_writings{
+    color : black;
+}
+
+/* -- FOR TESTING PURPOSE -- */
+.lulz{
+    color: deeppink;
+}
