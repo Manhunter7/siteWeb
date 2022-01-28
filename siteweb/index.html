@@ -10,10 +10,10 @@
 <div id="page">
     <div id="upper-btns">
         <form id="features">
-            <select name="features" class="features-control">
+            <select name="features" id="features-control">
                 <option selected disabled>-- Features --</option>
-                <option value="darkmode" class="darkmode">Dark Mode</option>
-                <option value="whitemode" class="whitemode">White Mode</option>
+                <option value="darkmode">Dark Mode</option>
+                <option value="whitemode">White Mode</option>
             </select>
         </form>
         <div class="space"></div>
@@ -24,12 +24,12 @@
         </div>
         <div class="space"></div>
         <form id="others">
-            <select name="websites" class="features-control" onchange="location=this.value">
+            <select name="websites" id="other-control" onchange="location=this.value">
                 <option selected disabled>-- Autres -- </option>
             </select>
         </form>
     </div>
-    <p class="cMode_writings">Ceci est un test</p>
+    <p class="paragraph">Ceci est un test</p>
 </div>
 </body>
 </html>

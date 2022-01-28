@@ -9,7 +9,7 @@
     justify-self: center;
 }
 
-.features-control{
+#features-control, #other-control{
     width: 200px;
     height: 40px;
     background-color: coral;
